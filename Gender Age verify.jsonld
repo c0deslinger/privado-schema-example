@@ -1,0 +1,27 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "GenderDisclose": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:1752c6a6-4048-4d67-947a-2122adf2ff56#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "gender": {
+                        "@id": "polygon-vocab:gender",
+                        "@type": "xsd:string"
+                    },
+                    "dob": {
+                        "@id": "polygon-vocab:dob",
+                        "@type": "xsd:integer"
+                    }
+                },
+                "@id": "urn:uuid:72851efd-9820-44e6-8489-270d02d84d35"
+            }
+        }
+    ]
+}
